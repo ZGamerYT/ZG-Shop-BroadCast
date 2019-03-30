@@ -1,1 +1,1 @@
-worker: Broadcast.js
+worker: node Broadcast.js
