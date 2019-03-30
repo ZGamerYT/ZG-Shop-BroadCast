@@ -2,13 +2,13 @@ const Discord = require("discord.js");
   const kboosh = new Discord.Client();
     const kbooshtoken = "MzI3NzM2NTMyOTMwOTIwNDUw.DGmnLA.QFbtYXPzTAvZsoFW70wNLyVm3lE"
       kboosh.on('ready', () => {
-        kboosh.user.setGame(`ببيع بوتات باسعار رخصيه`,'https://www.twitch.tv/TEST-Broadcast');
+        kboosh.user.setGame(`ZG Shop ,bc`,'https://www.twitch.tv/TEST-Broadcast');
           console.log('Im Ready!');
   
         });
 
   kboosh.on('message', message => {
-    if (message.content.split(' ')[0] == 'PR')
+    if (message.content.split(' ')[0] == 'ZG')
        message.guild.members.forEach( member => {
          if (!message.member.hasPermission("ADMINISTRATOR"))  return;
 
