@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
   const kboosh = new Discord.Client();
-    const kbooshtoken = "MzI3NzM2NTMyOTMwOTIwNDUw.DGmnLA.QFbtYXPzTAvZsoFW70wNLyVm3lE"
+    const kbooshtoken = "NTYxNjY0NjQwNDk3NzQ1OTIw.XJ_iwA.aKUptZtX7emdS-TL8bitAyjyzNI"
       kboosh.on('ready', () => {
         kboosh.user.setGame(`ZG Shop`,'https://www.twitch.tv/TEST-Broadcast');
           console.log('Im Ready!');
@@ -8,7 +8,7 @@ const Discord = require("discord.js");
         });
 
   kboosh.on('message', message => {
-    if (message.content.split(' ')[0] == 'PR')
+    if (message.content.split(' ')[0] == 'ZG')
        message.guild.members.forEach( member => {
          if (!message.member.hasPermission("ADMINISTRATOR"))  return;
 
