@@ -2,7 +2,7 @@ const Discord = require("discord.js");
   const kboosh = new Discord.Client();
     const kbooshtoken = "MzI3NzM2NTMyOTMwOTIwNDUw.DGmnLA.QFbtYXPzTAvZsoFW70wNLyVm3lE"
       kboosh.on('ready', () => {
-        kboosh.user.setGame(`ببيع بوتات باسعار رخصيه`,'https://www.twitch.tv/TEST-Broadcast');
+        kboosh.user.setGame(`ZG Shop`,'https://www.twitch.tv/TEST-Broadcast');
           console.log('Im Ready!');
   
         });
@@ -45,4 +45,4 @@ const Discord = require("discord.js");
                             }
                           }
 });
-kboosh.login("NTE4NDA3MDM0NzQwMjc3MjQ4.D1L54A.74k3sH1lI7Xf08ZbeazmtpXA-Ro");
+client.login(process.env.BOT_TOKEN);
